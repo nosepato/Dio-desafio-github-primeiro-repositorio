@@ -24,5 +24,6 @@ listar as configurações: git config --list
 enviar repositório da máquina para o github remoto: git remote add origin "url"
 listar os reposipórios remotos: git remote -v
 enviar repositório: git push origin master
-para puxar do git pra máquina: git pull origin master
+para puxar do git pra máquina: git pull origin main
 clonar repositório do github pra máquina: git clone "url"
+adicionar arquivos novos: git add .
