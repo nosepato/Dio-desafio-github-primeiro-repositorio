@@ -1,0 +1,28 @@
+dir ou ls - listar as pastas
+cd/ - navegar entre as pastas
+cd.. - retroceder um passo
+cls ou clear - limpar o terminal
+TAB - auto completa
+mkdir - criar uma pasta
+echo - printa de volta no terminal oque for digitar
+> - redericionar fluxo(criar o arquivo)
+del - deletar arquivos
+seta pra cima - volta os comandos usados
+rmdir "pasta" /s/q
+ls -a: mostrar aquivos ocultos
+
+criar chave SSH: ssh-keygen -t ed25519 -c "email"
+inicializar o SSH agent: eval $(ssh-agent-s)
+entregar a chave: ssh-add id...
+autor para o commit: git config --global user.name...
+adicionar commit: git add *
+                  git commit -m "commit inicial"
+status dos arquivos: git status
+mover arquivo: mv "nome do arquivo" ./"nome da pasta"
+alterar as configurações do git: git config --global --unset user.name
+listar as configurações: git config --list
+enviar repositório da máquina para o github remoto: git remote add origin "url"
+listar os reposipórios remotos: git remote -v
+enviar repositório: git push origin master
+para puxar do git pra máquina: git pull origin master
+clonar repositório do github pra máquina: git clone "url"
